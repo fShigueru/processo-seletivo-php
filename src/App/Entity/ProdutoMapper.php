@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Akatcham
- * Date: 12/07/2016
- * Time: 21:41
- */
 
 namespace App\Entity;
 
