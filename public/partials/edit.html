@@ -1,0 +1,9 @@
+<div id="container">
+    <h2>Atualizar Produto</h2>
+    <form name="produtoForm">
+        <input class="form-control" type="text" ng-model="produto.nome" name="nome" placeholder="Nome" ng-required="true">
+        <input class="form-control" type="text" ng-model="produto.descricao" name="descricao" placeholder="Descrição" ng-required="true">
+        <input class="form-control" type="text" ng-model="produto.preco" name="preco" placeholder="Preço" ng-required="true">
+    </form>
+    <button class="btn btn-primary btn-block" ng-click="editarProduto(produto)" ng-disabled="produtoForm.$invalid" >Editar Produto</button>
+</div>
