@@ -4,7 +4,7 @@ namespace App\Conn;
 
 class Config
 {
-    protected $dsn = "mysql:host=localhost;dbname=psp_ph5";
+    protected $dsn = "mysql:host=localhost;dbname=psp_ph2";
     protected $user = "root";
     protected $pass = "";
 
